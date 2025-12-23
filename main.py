@@ -8,7 +8,7 @@ from customer import open_customer_login, open_customer_register
 root = tk.Tk()
 root.title("Cosventa : Cosmetic Store Management System")
 root.geometry("500x400")
-root.config(bg="#1e1e1e")
+root.config(bg="#0b3d91")
 
 # Title
 title = tk.Label(
@@ -16,7 +16,7 @@ title = tk.Label(
     text="Cosmetic Store Management System",
     font=("Helvetica", 16, "bold"),
     fg="white",
-    bg="#1e1e1e"
+    bg="#0b3d91"
 )
 title.pack(pady=30)
 

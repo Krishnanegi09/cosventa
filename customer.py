@@ -7,21 +7,21 @@ def open_customer_register():
     win = tk.Toplevel()
     win.title("Customer Registration")
     win.geometry("400x350")
-    win.config(bg="#1e1e1e")
+    win.config(bg="#0b3d91")
 
     tk.Label(win, text="Customer Registration",
              font=("Helvetica", 14, "bold"),
-             fg="white", bg="#1e1e1e").pack(pady=20)
+             fg="white", bg="#0b3d91").pack(pady=20)
 
-    tk.Label(win, text="Name", fg="white", bg="#1e1e1e").pack()
+    tk.Label(win, text="Name", fg="white", bg="#0b3d91").pack()
     name_entry = tk.Entry(win)
     name_entry.pack(pady=5)
 
-    tk.Label(win, text="Email", fg="white", bg="#1e1e1e").pack()
+    tk.Label(win, text="Email", fg="white", bg="#0b3d91").pack()
     email_entry = tk.Entry(win)
     email_entry.pack(pady=5)
 
-    tk.Label(win, text="Password", fg="white", bg="#1e1e1e").pack()
+    tk.Label(win, text="Password", fg="white", bg="#0b3d91").pack()
     password_entry = tk.Entry(win, show="*")
     password_entry.pack(pady=5)
 
@@ -55,17 +55,17 @@ def open_customer_login():
     win = tk.Toplevel()
     win.title("Customer Login")
     win.geometry("400x300")
-    win.config(bg="#1e1e1e")
+    win.config(bg="#0b3d91")
 
     tk.Label(win, text="Customer Login",
              font=("Helvetica", 14, "bold"),
-             fg="white", bg="#1e1e1e").pack(pady=20)
+             fg="white", bg="#0b3d91").pack(pady=20)
 
-    tk.Label(win, text="Email", fg="white", bg="#1e1e1e").pack()
+    tk.Label(win, text="Email", fg="white", bg="#0b3d91").pack()
     email_entry = tk.Entry(win)
     email_entry.pack(pady=5)
 
-    tk.Label(win, text="Password", fg="white", bg="#1e1e1e").pack()
+    tk.Label(win, text="Password", fg="white", bg="#0b3d91").pack()
     password_entry = tk.Entry(win, show="*")
     password_entry.pack(pady=5)
 
@@ -98,17 +98,17 @@ def open_customer_panel(customer_name):
     panel = tk.Toplevel()
     panel.title("Customer Panel")
     panel.geometry("650x500")
-    panel.config(bg="#1e1e1e")
+    panel.config(bg="#0b3d91")
 
     tk.Label(panel, text=f"Welcome, {customer_name}",
              font=("Helvetica", 14, "bold"),
-             fg="white", bg="#1e1e1e").pack(pady=10)
+             fg="white", bg="#0b3d91").pack(pady=10)
 
     listbox = tk.Listbox(panel, width=80)
     listbox.pack(pady=10)
 
     tk.Label(panel, text="Quantity to Buy",
-             fg="white", bg="#1e1e1e").pack()
+             fg="white", bg="#0b3d91").pack()
     qty_entry = tk.Entry(panel)
     qty_entry.pack(pady=5)
 

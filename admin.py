@@ -6,7 +6,7 @@ def open_admin_login():
     win = tk.Toplevel()
     win.title("Admin Login")
     win.geometry("400x300")
-    win.config(bg="#1e1e1e")
+    win.config(bg="#0b3d91")
 
     # Title
     tk.Label(
@@ -14,7 +14,7 @@ def open_admin_login():
         text="Admin Login",
         font=("Helvetica", 14, "bold"),
         fg="white",
-        bg="#1e1e1e"
+        bg="#0b3d91"
     ).pack(pady=20)
 
     # Username
@@ -67,30 +67,30 @@ def open_admin_panel():
     panel = tk.Toplevel()
     panel.title("Admin Panel")
     panel.geometry("600x500")
-    panel.config(bg="#1e1e1e")
+    panel.config(bg="#0b3d91")
 
     tk.Label(
         panel,
         text="Admin Panel - Product Management",
         font=("Helvetica", 14, "bold"),
         fg="white",
-        bg="#1e1e1e"
+        bg="#0b3d91"
     ).pack(pady=15)
 
     # ---- Input Fields ----
-    tk.Label(panel, text="Product Name", fg="white", bg="#1e1e1e").pack()
+    tk.Label(panel, text="Product Name", fg="white", bg="#0b3d91").pack()
     name_entry = tk.Entry(panel)
     name_entry.pack(pady=3)
 
-    tk.Label(panel, text="Brand", fg="white", bg="#1e1e1e").pack()
+    tk.Label(panel, text="Brand", fg="white", bg="#0b3d91").pack()
     brand_entry = tk.Entry(panel)
     brand_entry.pack(pady=3)
 
-    tk.Label(panel, text="Price", fg="white", bg="#1e1e1e").pack()
+    tk.Label(panel, text="Price", fg="white", bg="#0b3d91").pack()
     price_entry = tk.Entry(panel)
     price_entry.pack(pady=3)
 
-    tk.Label(panel, text="Quantity", fg="white", bg="#1e1e1e").pack()
+    tk.Label(panel, text="Quantity", fg="white", bg="#0b3d91").pack()
     qty_entry = tk.Entry(panel)
     qty_entry.pack(pady=3)
 
